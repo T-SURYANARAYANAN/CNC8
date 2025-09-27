@@ -19,6 +19,8 @@ ________________________________________<br>
 <br>
 ________________________________________<br>
 Addressing Table (from activity)<br>
+<img width="745" height="463" alt="Screenshot 2025-09-27 082417" src="https://github.com/user-attachments/assets/77bf6589-55e0-40c8-86f4-34f5e76ee602" />
+
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
 R1	G0/0	192.168.10.1	255.255.255.0	—<br>
 R1	G0/1	192.168.11.1	255.255.255.0	—<br>
@@ -127,5 +129,7 @@ ________________________________________<br>
 
 ________________________________________<br>
 # Result
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/355372a3-7932-47fb-8128-b5e98c2af0e5" />
+
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
 
